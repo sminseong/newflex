@@ -1,0 +1,74 @@
+@import "./global.css";
+
+.mypage-profile__imgs {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+}
+
+.add-profile-btn {
+    background-color: gray;
+    height: 70px;
+    width: 70px;
+    font-size: 1rem;
+    font-weight: 200;
+    color: white;
+}
+
+.mypage-profile__imgs img {
+    border-radius: 50%;
+    inline-size: 50px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+}
+.mypage-continueWatch {
+    margin: 0 20px 20px;
+}
+
+.mypage-wishlist {
+    margin: 0 20px 0 20px;
+}
+
+.mypage-continueWatch__imgs {
+    margin-top: 10px;
+    display: flex;
+}
+
+.mypage-continueWatch__imgs img {
+    inline-size: 200px;
+    border-radius: 20px;
+}
+
+.mypage-continueWatch__imgs div {
+    padding: 5px;
+    border-radius: 20px;
+    background-color: var(--darkpurple);
+    margin-left: 10px;
+}
+.mypage-continueWatch__imgs p {
+    margin: 5px 5px 5px 5px;
+}
+
+.mypage-wishlist__imgs {
+
+}
+
+.mypage-wishlist__imgs img {
+    inline-size: 70px;
+    border-radius: 20px;
+    padding: 5px;
+    margin-right: 15px;
+}
+
+.mypage-wishlist__imgs div {
+    margin: 10px 0 10px 0;
+    background-color: var(--darkpurple);
+    display: flex;
+    border-radius: 20px;
+    align-items: center;
+}
+
+.mypage-wishlist__imgs span {
+    font-size: small;
+}
